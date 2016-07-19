@@ -1,4 +1,4 @@
-<?php namespace Xavrsl\Cas;
+<?php namespace Gatewayuo\Cas;
 
 use Illuminate\Auth\AuthManager;
 use Illuminate\Session\SessionManager;
@@ -26,7 +26,7 @@ class CasManager {
     /**
 	 * Get a Cas connection instance.
 	 *
-	 * @return Xavrsl\Cas\Directory
+	 * @return Gatewayuo\Cas\Directory
 	 */
 	public function connection()
 	{
@@ -41,7 +41,7 @@ class CasManager {
 	/**
 	 * Create the given connection by name.
 	 *
-	 * @return Xavrsl\Cas\Sso
+	 * @return Gatewayuo\Cas\Sso
 	 */
 	protected function createConnection()
 	{

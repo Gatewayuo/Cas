@@ -1,4 +1,4 @@
-<?php namespace Xavrsl\Cas;
+<?php namespace Gatewayuo\Cas;
 
 use phpCAS;
 

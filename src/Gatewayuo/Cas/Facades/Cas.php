@@ -1,4 +1,4 @@
-<?php namespace Xavrsl\Cas\Facades;
+<?php namespace Gatewayuo\Cas\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,5 +1,6 @@
 CAS
 ===
+FORK FROM: https://github.com/XavRsl/Cas
 
 CAS server SSO authentication in Laravel 4.x & 5.x
 
@@ -9,11 +10,11 @@ Require this package in your composer.json and run composer update.
 
 For Laravel 4 use v1.1.* :
 
-    "xavrsl/cas": "1.1.*"
+    "gatewayuo/cas": "1.1.*"
 
 For Laravel 5 use v1.2.* :
 
-    "xavrsl/cas": "1.2.*"
+    "gatewayuo/cas": "1.2.*"
 
 After updating composer, add the ServiceProvider to the providers array:
 
@@ -22,11 +23,11 @@ For Laravel 4:
 app/config/app.php
 
 ```php
-    'Xavrsl\Cas\CasServiceProvider',
+    'Gaetwayuo\Cas\CasServiceProvider',
 ```
 As well as the Facade :
 ```php
-	'Cas' => 'Xavrsl\Cas\Facades\Cas',
+	'Cas' => 'Gaetwayuo\Cas\Facades\Cas',
 ```
 
 For Laravel 5:
@@ -34,18 +35,18 @@ For Laravel 5:
 config/app.php
 
 ```php
-    Xavrsl\Cas\CasServiceProvider::class,
+    Gatewayuo\Cas\CasServiceProvider::class,
 ```
 As well as the Facade :
 ```php
-	'Cas'       => Xavrsl\Cas\Facades\Cas::class,
+	'Cas'       => Gatewayuo\Cas\Facades\Cas::class,
 ```
 
 Then publish the package's config using one of those methods :
 
 For Laravel 4 :
 ```
-    $ php artisan config:publish xavrsl/cas
+    $ php artisan config:publish gatewayuo/cas
 ```
 
 For Laravel 5 :
