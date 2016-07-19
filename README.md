@@ -12,9 +12,9 @@ For Laravel 4 use v1.1.* :
 
     "gatewayuo/cas": "1.1.*"
 
-For Laravel 5 use v1.2.* :
+For Laravel 5 use v1.3.* :
 
-    "gatewayuo/cas": "1.2.*"
+    "gatewayuo/cas": "1.3.*"
 
 After updating composer, add the ServiceProvider to the providers array:
 
