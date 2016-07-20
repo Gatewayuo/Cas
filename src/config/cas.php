@@ -61,7 +61,7 @@ return [
         |
         */
 
-        'cas_version' => env('CAS_VERSION', CAS_VERSION_2_0),
+        'cas_ver_3' => env('CAS_VERSION_3', true),
         /*
         |--------------------------------------------------------------------------
         | CAS Validation

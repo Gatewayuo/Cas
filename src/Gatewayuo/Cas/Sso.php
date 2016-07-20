@@ -71,7 +71,7 @@ class Sso {
         // in using the framework's session and authentication objects. If CAS destroys the session, it will destroy it
         // for everyone and you only need to deal with one session.
         phpCAS::$method(
-            !$this->config['cas_saml'] ? $this->config['cas_version'] : SAML_VERSION_1_1,
+            !$this->config['cas_saml'] ? $this->config['cas_ver_3'] ? CAS_VERSION_3_0 : CAS_VERSION_2_0 : SAML_VERSION_1_1,
             $this->config['cas_hostname'],
             (integer) $this->config['cas_port'],
             $this->config['cas_uri']
