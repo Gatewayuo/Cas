@@ -1,5 +1,5 @@
 {
-    "name": "gatewayuo/cas",
+    "name": "Gatewayuo/Cas",
     "description": "Add CAS server SSO auth to Laravel 5",
     "keywords": ["CAS", "phpCAS", "SSO", "laravel"],
     "require": {
