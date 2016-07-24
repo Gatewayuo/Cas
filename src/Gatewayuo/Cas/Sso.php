@@ -197,17 +197,6 @@ class Sso {
         return phpCAS::getUser();
     }
 
-    /**
-     * Get All attributes
-     * @return array|mixed
-    */
-    public function getCurrentUserAttributes() {
-
-        if($this->isPretending()) return $this->config['cas_pretend_user'];
-
-        return phpCAS::getAttributes();
-    }
-
 
     /**
      * getCurrentUser Alias

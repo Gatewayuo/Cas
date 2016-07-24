@@ -2,6 +2,8 @@ CAS
 ===
 FORK FROM: https://github.com/XavRsl/Cas
 
+CAS version 3
+
 CAS server SSO authentication in Laravel 4.x & 5.x
 
 ## Installation
@@ -23,11 +25,11 @@ For Laravel 4:
 app/config/app.php
 
 ```php
-    'Gaetwayuo\Cas\CasServiceProvider',
+    'Gatewayuo\Cas\CasServiceProvider',
 ```
 As well as the Facade :
 ```php
-	'Cas' => 'Gaetwayuo\Cas\Facades\Cas',
+	'Cas' => 'Gatewayuo\Cas\Facades\Cas',
 ```
 
 For Laravel 5:
@@ -81,4 +83,18 @@ OR
 ```php
   Cas::user();
 ```
+
+Get attributes
+
+```php
+  CAS::getAttributes()
+```
+
+Logout
+params:
+url: 'https://...',
+service: '...'
+
+```php
+  CAS::logout($params)
 
