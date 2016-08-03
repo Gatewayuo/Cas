@@ -38,7 +38,7 @@ class Sso {
         $this->configureDebug();
         // initialize CAS client
         $this->configureCasClient();
-
+	phpCAS::setSingleSignoutCallback('_sso_logout'); //move line
         $this->configureSslValidation();
         phpCAS::handleLogoutRequests();
 
